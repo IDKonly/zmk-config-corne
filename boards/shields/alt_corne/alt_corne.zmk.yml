@@ -11,9 +11,5 @@ features:
   - underglow
   - studio
 siblings:
-  - corne_left
-  - corne_right
-  - corne_left_peripheral
-  - alt_conre_left
-  - corne_dongle_xiao
-  - corne_dongle_pro_micro
+  - alt_corne_left
+  - alt_corne_right
