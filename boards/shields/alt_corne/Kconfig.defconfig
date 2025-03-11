@@ -14,7 +14,7 @@ config ZMK_KEYBOARD_NAME
     default "Corne R"
 
 CONFIG_ZMK_SPLIT_ROLE_CENTRAL
-default n
+    default n
 
 endif
 
