@@ -31,7 +31,7 @@
 
             bindings = <
 &mt ESC TAB  &kp Q  &kp W  &kp E           &kp R      &kp T        &kp Y        &kp U              &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL    &kp A  &kp S  &mt LEFT_ALT D  &kp F      &kp G        &kp H        &mt RIGHT_SHIFT J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL    &kp A  &kp S  &hm LEFT_ALT D  &kp F      &kp G        &kp H        &hm RIGHT_SHIFT J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT    &kp Z  &kp X  &kp C           &kp V      &kp B        &kp N        &kp M              &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
                            &kp LGUI        &lt 1 TAB  &kp SPACE    &lt 4 ENTER  &lt 3 RALT         &lt 5 DEL
             >;
