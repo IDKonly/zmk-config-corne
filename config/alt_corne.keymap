@@ -46,8 +46,8 @@
 
             bindings = <
 &none           &none     &none         &none      &none      &none        &kp PRINTSCREEN  &kp PAGE_DOWN   &kp PAGE_UP   &kp HOME         &kp END  &kp BACKSPACE
-&kp CAPSLOCK    &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &none        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans   &trans
-&kp LEFT_SHIFT  &trans    &trans        &trans     &trans     &trans       &trans           &trans          &trans        &trans           &trans   &studio_unlock
+&kp CAPSLOCK    &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &none        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW   &none    &none
+&kp LEFT_SHIFT   &none     &none         &none      &none      &none        &none            &none           &none         &none            &none   &studio_unlock
                                         &kp LGUI   &none      &kp SPACE    &kp RET          &kp RALT        &kp DELETE
             >;
         };
@@ -61,8 +61,8 @@
 
             bindings = <
 &none           &none     &none         &none      &none      &none        &kp PRINTSCREEN  &kp PAGE_DOWN   &kp PAGE_UP   &kp HOME         &kp END  &kp BACKSPACE
-&kp CAPSLOCK    &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &none        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans   &trans
-&kp LEFT_SHIFT  &trans    &trans        &trans     &trans     &trans       &trans           &trans          &trans        &trans           &trans   &studio_unlock
+&kp CAPSLOCK    &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHFT  &none        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW   &none    &none
+&kp LEFT_SHIFT   &none     &none         &none      &none      &none        &none            &none           &none         &none            &none   &studio_unlock
                                         &kp LGUI   &none      &kp SPACE    &kp RET          &kp RALT        &kp DELETE
             >;
         };
@@ -76,9 +76,9 @@
 
             bindings = <
 &kp GRAVE       &kp N1  &kp N2  &kp N3                &kp N4                 &kp N5       &kp N6  &kp N7  &kp N8  &kp N9  &kp N0         &kp BACKSPACE
-&kp LCTRL       &trans  &trans  &trans                &trans                 &trans       &trans  &trans  &trans  &trans  &kp BACKSLASH  &kp MINUS
-&kp LEFT_SHIFT  &trans  &trans  &trans                &trans                 &trans       &trans  &trans  &trans  &trans  &trans         &kp EQUAL
-                                &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS    &trans  &trans  &trans
+&kp LCTRL        &none   &none   &none                 &none                  &none        &none   &none   &none   &none  &kp BACKSLASH  &kp MINUS
+&kp LEFT_SHIFT   &none   &none   &none                 &none                  &none        &none   &none   &none   &none   &none         &kp EQUAL
+                                &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS     &none   &none   &none
             >;
         };
 
@@ -91,9 +91,9 @@
 
             bindings = <
 &kp LS(GRAVE)   &kp LS(N1)  &kp LS(N2)  &kp LS(N3)        &kp LS(N4)         &kp LS(N5)        &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)         &kp BACKSPACE
-&kp LCTRL       &trans      &trans      &trans            &trans             &trans            &trans      &trans      &trans      &trans      &kp LS(BACKSLASH)  &kp LS(MINUS)
-&kp LEFT_SHIFT  &trans      &trans      &trans            &trans             &trans            &trans      &trans      &trans      &trans      &trans             &kp LS(EQUAL)
-                                        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UNDERSCORE    &trans      &trans      &trans
+&kp LCTRL        &none       &none       &none             &none              &none             &none       &none       &none       &none      &kp LS(BACKSLASH)  &kp LS(MINUS)
+&kp LEFT_SHIFT   &none       &none       &none             &none              &none             &none       &none       &none       &none       &none             &kp LS(EQUAL)
+                                        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp UNDERSCORE     &none       &none       &none
             >;
         };
 
@@ -105,10 +105,10 @@
             //                    | BTC | BTN | BTP |   |     |     |     |
 
             bindings = <
-&trans  &kp F1  &kp F2   &kp F3      &kp F4      &kp PRINTSCREEN    &trans  &trans      &trans     &trans         &trans     &trans
-&trans  &kp F5  &kp F6   &kp F7      &kp F8      &trans             &trans  &kp RSHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RMETA  &trans
-&trans  &kp F9  &kp F10  &kp F11     &kp F12     &trans             &trans  &trans      &trans     &trans         &trans     &studio_unlock
-                         &bt BT_CLR  &bt BT_NXT  &bt BT_PRV         &trans  &trans      &trans
+ &none  &kp F1  &kp F2   &kp F3      &kp F4      &kp PRINTSCREEN     &none   &none       &none      &none          &none      &none
+ &none  &kp F5  &kp F6   &kp F7      &kp F8       &none              &none  &kp RSHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RMETA   &none
+ &none  &kp F9  &kp F10  &kp F11     &kp F12      &none              &none   &none       &none      &none          &none     &studio_unlock
+                         &bt BT_CLR  &bt BT_NXT  &bt BT_PRV          &none   &none       &none
             >;
         };
 
@@ -121,9 +121,9 @@
 
             bindings = <
 &kp GRAVE       &kp N1  &kp N2  &kp N3                &kp N4                 &kp N5       &kp N6  &kp N7  &kp N8  &kp N9  &kp N0         &kp BACKSPACE
-&kp LCTRL       &trans  &trans  &trans                &trans                 &trans       &trans  &trans  &trans  &trans  &kp BACKSLASH  &kp MINUS
-&kp LEFT_SHIFT  &trans  &trans  &trans                &trans                 &trans       &trans  &trans  &trans  &trans  &trans         &kp EQUAL
-                                &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS    &trans  &trans  &trans
+&kp LCTRL        &none   &none   &none                 &none                  &none        &none   &none   &none   &none  &kp BACKSLASH  &kp MINUS
+&kp LEFT_SHIFT   &none   &none   &none                 &none                  &none        &none   &none   &none   &none   &none         &kp EQUAL
+                                &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS     &none   &none   &none
             >;
         };
     };
